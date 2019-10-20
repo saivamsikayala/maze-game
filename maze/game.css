@@ -1,0 +1,104 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#mazeContainer {
+    top: 75px;
+    opacity: 0;
+    display: inline-block;
+    background-color: aquamarine;
+    margin: auto;
+}
+#mazeContainer #mazeCanvas {
+    margin: 0;
+    display: block;
+    border: solid 3px black;
+}
+input, select {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.30);
+    height: 45px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+}
+.custom-select {
+    display: inline-block;
+}
+#Message-Container {
+    visibility: hidden;
+    color: chartreuse;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    z-index: 1;
+}
+#Message-Container #message {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+#page {
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+#page #menu {
+    margin: auto;
+    padding: 10px;
+    height: 65px;
+    box-sizing: border-box;
+}
+#page #menu h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+#page #view {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+.border {
+    border: 2px black solid;
+    border-radius: 5px;
+}
+#gradient {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-size: 400% 400%;
+}
+
